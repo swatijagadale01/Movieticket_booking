@@ -1,0 +1,78 @@
+/* Primary colors */
+:root {
+  --primary-color: #FF5252; /* bright red */
+  --secondary-color: #FDD835; /* yellow */
+  --tertiary-color: #1976D2; /* blue */
+  --text-color: #333; /* dark grey */
+  --background-color: #fff; /* white */
+}
+
+/* Background color */
+body {
+  background-color: var(--background-color);
+}
+
+/* Heading colors */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+/* Text colors */
+p, a, span {
+  color: var(--text-color);
+}
+
+/* Button colors */
+button, input[type="submit"] {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Link colors */
+a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--tertiary-color);
+}
+
+/* Image colors */
+img {
+  filter: brightness(80%);
+}
+
+/* Form styling */
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+  border: 2px solid var(--tertiary-color);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--tertiary-color);
+}
+
+/* Form placeholders */
+::-webkit-input-placeholder {
+  color: var(--tertiary-color);
+}
+
+:-ms-input-placeholder {
+  color: var(--tertiary-color);
+}
+
+::-ms-input-placeholder {
+  color: var(--tertiary-color);
+}
+
+::placeholder {
+  color: var(--tertiary-color);
+}

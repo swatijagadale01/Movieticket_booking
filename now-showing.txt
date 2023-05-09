@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Now Showing - Movie Ticket Booking Website</title>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Now Showing</h1>
+    <table>
+      <tr>
+        <td><img src="movie1.jpg" alt="Movie 1"></td>
+        <td>
+          <h2>Movie 1</h2>
+          <p>Showtime: 10:00 AM</p>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="movie2.jpg" alt="Movie 2"></td>
+        <td>
+          <h2>Movie 2</h2>
+          <p>Showtime: 2:00 PM</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
